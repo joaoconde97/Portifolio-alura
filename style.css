@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*RESET CSS*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    box-sizing: border-box;
     background-color: black;
-    margin: 15%;
-    text-align: center;
+    height: 100vh;
 }
 
 span {
@@ -15,6 +21,14 @@ span {
     color: #805D93;
 }
 
+/*POSICIONAMENTO DOS BOTÕES*/
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+/*ESTILIZAÇÃO DOS BOTÕES*/
 .botao {
     text-decoration: none;
     background-color: #805D93;
@@ -22,15 +36,13 @@ span {
     border: 1px solid black;
     border-radius: 16px;
     padding: 16px 50px;
-    gap: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: black;
-    
-    
 }
 
+/*EFEITO AO PASSAR MOUSE*/
 .botao:hover {
     background-color: black;
     color: rgba(246, 246, 246, 1);
@@ -44,6 +56,7 @@ span {
     font-style: normal;
     font-size: 36px;
     line-height: 56px;
+    
 }
 
 .paragrafo-principal {
@@ -52,14 +65,15 @@ span {
     font-size: 24px;
     color: rgba(246, 246, 246, 1);
     line-height: 36px;
+    
 }
 
 main {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     text-align: start;
-    
+    margin: auto;
+    width: 50%;
     
 }
 
@@ -71,7 +85,7 @@ img {
     border-radius: 20px;
     max-width: 400px;
     float: right;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 20px;
     border: 8px solid #805D93;
 }
@@ -83,9 +97,10 @@ img:hover {
 .texto {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 615px;
+    gap: 25px;
+    margin: 10% 10%;
 }
 
-.botoes {
-    display: flex;
-    justify-content: space-between;
-}
+
