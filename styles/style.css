@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-terciaria: #805D93;
+    --cor-secundaria: black;
+    --cor-primaria: rgba(246, 246, 246, 1);
+}
+
+/*RESET CSS*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    /* height: 100vh; */
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 29%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor-terciaria);
+   
+}
+
+.menu__link:hover {
+    color: var(--cor-primaria);
+    border-bottom: 1px solid var(--cor-primaria);
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    margin: auto;
+    width: 60%;
+    
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 615px;
+    gap: 25px;
+    padding: 5% 15%;
+}
+
+.titulo-principal {
+    color: var(--cor-primaria);
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 56px;
+    
+}
+
+.paragrafo-principal {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-primaria);
+    line-height: 36px;
+    
+}
+
+span {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: var(--cor-terciaria);
+}
+
+/*POSICIONAMENTO DOS BOTÕES*/
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 5%;
+}
+
+/*ESTILIZAÇÃO DOS BOTÕES*/
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    /* background-color: black; */
+    width: 378px;
+    text-align: center;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 8px;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--cor-primaria);
+}
+
+/*EFEITO AO PASSAR MOUSE BOTÕES*/
+.botao:hover {
+    background-color: #272727;
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+}
+
+
+strong {
+    color: var(--cor-terciaria);
+}
+
+.imagem-principal {
+    border-radius: 20px;
+    max-width: 400px;
+    float: right;
+    margin-top: 10%;
+    margin-left: 50px;
+    border: 8px solid var(--cor-terciaria);
+}
+
+.imagem-principal:hover {
+    border: 8px solid var(--cor-primaria);
+}
+
+.rodape {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+}
+
+
+
+
+
