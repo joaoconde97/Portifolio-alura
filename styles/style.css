@@ -169,7 +169,7 @@ strong {
 
 
 /* MEDIA QUERY PARA CELULAR */
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .cabecalho {
         padding: 10%;
     }
