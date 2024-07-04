@@ -193,6 +193,10 @@ strong {
     .imagem-principal {
         width: 70%;
     }
+
+    .rodape {
+        padding: 16px;
+    }
 }
 
 /* MEDIA QUERY PARA TABLETS */
