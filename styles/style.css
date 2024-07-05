@@ -194,9 +194,6 @@ strong {
         width: 70%;
     }
 
-    .rodape {
-        bottom: 0;
-    }
 }
 
 @media (max-width: 430px) {
