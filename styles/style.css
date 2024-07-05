@@ -195,7 +195,8 @@ strong {
     }
 
     .rodape {
-        padding: 16px;
+        position: fixed;
+        bottom: 0;
     }
 }
 
@@ -225,7 +226,7 @@ strong {
     }
 
     .rodape {
-        padding: 0;
+        padding: 16px;
     }
 
     .menu__link {
