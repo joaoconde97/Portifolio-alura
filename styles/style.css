@@ -169,7 +169,7 @@ strong {
 
 
 /* MEDIA QUERY PARA CELULAR */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .cabecalho {
         padding: 10%;
     }
@@ -196,6 +196,45 @@ strong {
 
     .rodape {
         padding: 16px;
+    }
+}
+
+@media (max-width: 430px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        padding: 5%;
+        gap: 82px;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .texto {
+        width: auto;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .imagem-principal {
+        width: 70%;
+    }
+
+    .rodape {
+        padding: 16px;
+    }
+
+    .menu__link {
+        text-decoration: none;
+        font-family: var(--fonte-secundaria);
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: var(--cor-terciaria);
+       
     }
 }
 
